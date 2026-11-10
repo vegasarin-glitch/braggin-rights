@@ -352,68 +352,803 @@ footer p { margin: 0; max-width: 70ch; }
      finalWeeks: weeks with final results; liveWeek: week in progress, or null -->
 <script type="application/json" id="league-data">
 {
-  "updated": "2026-11-08T11:28:00-08:00",
-  "finalWeeks": 8,
-  "liveWeek": 9,
-  "commissionerTeams": ["Getaway Broncos", "The Sun"],
-  "managers": {
-    "Candy Cadbury": "Melissa", "Andy Nederlander": "Garrett", "Black Crush": "Tiffany & Luke", "Utah Get Me 2A": "Andy",
-    "Nosferatu": "Chris", "Water Boy": "DJ", "Cardiac Kids": "Darin", "Getaway Broncos": "Jeremy",
-    "my ball zach ertz": "Abe", "The Dart Side": "TheBigGuy",
-    "Gridiron Girl": "Erin", "chase's Amazing Team": "Chase", "Just Win Baby": "Joe", "King Edward": "Edward",
-    "Crushin’ Ballz": "Samantha", "Chiefs Fantasy Climb": "Chiefs Fantasy", "The Sun": "Jeremy & TheMayerLV",
-    "Gordon Grinders": "Brian", "Ceedeez Nuts": "Dylan", "MCK": "Kristy"
-  },
-  "standings": {
-    "A": [
-      ["Candy Cadbury", 7, 1, 1171.86, 882.40, "W-6", 13],
-      ["Andy Nederlander", 7, 1, 1148.04, 935.70, "W-3", 15],
-      ["Black Crush", 6, 2, 1142.94, 1027.24, "L-1", 6],
-      ["Utah Get Me 2A", 5, 3, 1093.46, 967.64, "L-2", 7],
-      ["Nosferatu", 4, 4, 1034.84, 1002.18, "W-2", 17],
-      ["Water Boy", 3, 5, 998.32, 976.92, "W-1", 13],
-      ["Cardiac Kids", 3, 5, 983.34, 967.76, "L-2", 3],
-      ["Getaway Broncos", 3, 5, 763.38, 1008.86, "W-2", 15],
-      ["my ball zach ertz", 1, 7, 888.94, 1133.42, "L-5", 13],
-      ["The Dart Side", 1, 7, 782.68, 1105.68, "L-3", 59]
+ "updated": "2026-11-09T17:06:43-08:00",
+ "finalWeeks": 8,
+ "liveWeek": 9,
+ "commissionerTeams": [
+  "Getaway Broncos",
+  "The Sun"
+ ],
+ "managers": {
+  "Candy Cadbury": "Melissa",
+  "Andy Nederlander": "Garrett",
+  "Black Crush": "Tiffany & Luke",
+  "Utah Get Me 2A": "Andy",
+  "Nosferatu": "Chris",
+  "Water Boy": "DJ",
+  "Cardiac Kids": "Darin",
+  "Getaway Broncos": "Jeremy",
+  "my ball zach ertz": "Abe",
+  "The Dart Side": "TheBigGuy",
+  "Gridiron Girl": "Erin",
+  "chase's Amazing Team": "Chase",
+  "Just Win Baby": "Joe",
+  "King Edward": "Edward",
+  "Crushin’ Ballz": "Samantha",
+  "Chiefs Fantasy Climb": "Chiefs Fantasy",
+  "The Sun": "Jeremy & TheMayerLV",
+  "Gordon Grinders": "Brian",
+  "Ceedeez Nuts": "Dylan",
+  "MCK": "Kristy"
+ },
+ "standings": {
+  "A": [
+   [
+    "Candy Cadbury",
+    7,
+    1,
+    1171.86,
+    882.4,
+    "W-6",
+    13
+   ],
+   [
+    "Andy Nederlander",
+    7,
+    1,
+    1148.04,
+    935.7,
+    "W-3",
+    15
+   ],
+   [
+    "Black Crush",
+    6,
+    2,
+    1142.94,
+    1027.24,
+    "L-1",
+    6
+   ],
+   [
+    "Utah Get Me 2A",
+    5,
+    3,
+    1093.46,
+    967.64,
+    "L-2",
+    7
+   ],
+   [
+    "Nosferatu",
+    4,
+    4,
+    1034.84,
+    1002.18,
+    "W-2",
+    17
+   ],
+   [
+    "Water Boy",
+    3,
+    5,
+    998.32,
+    976.92,
+    "W-1",
+    13
+   ],
+   [
+    "Cardiac Kids",
+    3,
+    5,
+    983.34,
+    967.76,
+    "L-2",
+    3
+   ],
+   [
+    "Getaway Broncos",
+    3,
+    5,
+    763.38,
+    1008.86,
+    "W-2",
+    15
+   ],
+   [
+    "my ball zach ertz",
+    1,
+    7,
+    888.94,
+    1133.42,
+    "L-5",
+    13
+   ],
+   [
+    "The Dart Side",
+    1,
+    7,
+    782.68,
+    1105.68,
+    "L-3",
+    59
+   ]
+  ],
+  "G": [
+   [
+    "Gridiron Girl",
+    6,
+    2,
+    984.96,
+    875.28,
+    "L-1",
+    5
+   ],
+   [
+    "chase's Amazing Team",
+    5,
+    3,
+    1076.78,
+    937.56,
+    "W-2",
+    3
+   ],
+   [
+    "Just Win Baby",
+    5,
+    3,
+    1070.2,
+    1043.52,
+    "W-1",
+    2
+   ],
+   [
+    "King Edward",
+    5,
+    3,
+    994.98,
+    947.54,
+    "L-1",
+    22
+   ],
+   [
+    "Crushin’ Ballz",
+    5,
+    3,
+    993.02,
+    983.88,
+    "W-1",
+    9
+   ],
+   [
+    "Chiefs Fantasy Climb",
+    4,
+    4,
+    949.2,
+    949.62,
+    "L-1",
+    13
+   ],
+   [
+    "The Sun",
+    4,
+    4,
+    879.52,
+    935.18,
+    "L-1",
+    15
+   ],
+   [
+    "Gordon Grinders",
+    3,
+    5,
+    885.3,
+    926.16,
+    "W-1",
+    13
+   ],
+   [
+    "Ceedeez Nuts",
+    2,
+    6,
+    970.44,
+    1012.74,
+    "L-6",
+    10
+   ],
+   [
+    "MCK",
+    1,
+    7,
+    826.66,
+    1019.58,
+    "W-1",
+    6
+   ]
+  ]
+ },
+ "weeks": {
+  "A": [
+   [
+    [
+     "Getaway Broncos",
+     113.22,
+     151.86,
+     "Water Boy"
     ],
-    "G": [
-      ["Gridiron Girl", 6, 2, 984.96, 875.28, "L-1", 5],
-      ["chase's Amazing Team", 5, 3, 1076.78, 937.56, "W-2", 3],
-      ["Just Win Baby", 5, 3, 1070.20, 1043.52, "W-1", 2],
-      ["King Edward", 5, 3, 994.98, 947.54, "L-1", 22],
-      ["Crushin’ Ballz", 5, 3, 993.02, 983.88, "W-1", 9],
-      ["Chiefs Fantasy Climb", 4, 4, 949.20, 949.62, "L-1", 13],
-      ["The Sun", 4, 4, 879.52, 935.18, "L-1", 15],
-      ["Gordon Grinders", 3, 5, 885.30, 926.16, "W-1", 13],
-      ["Ceedeez Nuts", 2, 6, 970.44, 1012.74, "L-6", 10],
-      ["MCK", 1, 7, 826.66, 1019.58, "W-1", 6]
-    ]
-  },
-  "weeks": {
-    "A": [
-      [["Getaway Broncos",113.22,151.86,"Water Boy"],["Andy Nederlander",145.86,112.60,"my ball zach ertz"],["Candy Cadbury",124.56,108.50,"Cardiac Kids"],["The Dart Side",106.74,180.76,"Black Crush"],["Nosferatu",93.36,155.46,"Utah Get Me 2A"]],
-      [["Getaway Broncos",124.86,64.58,"The Dart Side"],["Andy Nederlander",162.82,104.40,"Utah Get Me 2A"],["Candy Cadbury",121.90,124.22,"Black Crush"],["Cardiac Kids",154.98,117.72,"Nosferatu"],["Water Boy",119.94,96.06,"my ball zach ertz"]],
-      [["Getaway Broncos",108.34,152.58,"Candy Cadbury"],["Andy Nederlander",132.86,111.88,"Water Boy"],["Cardiac Kids",90.70,156.94,"Utah Get Me 2A"],["The Dart Side",124.86,134.44,"my ball zach ertz"],["Black Crush",163.54,92.84,"Nosferatu"]],
-      [["Getaway Broncos",78.10,178.86,"Nosferatu"],["Andy Nederlander",134.12,87.04,"The Dart Side"],["Candy Cadbury",151.22,115.20,"my ball zach ertz"],["Cardiac Kids",128.38,144.62,"Black Crush"],["Water Boy",116.48,173.98,"Utah Get Me 2A"]],
-      [["Getaway Broncos",71.40,160.62,"Cardiac Kids"],["Andy Nederlander",116.10,164.40,"Candy Cadbury"],["The Dart Side",143.14,139.44,"Water Boy"],["my ball zach ertz",100.24,185.76,"Nosferatu"],["Black Crush",149.34,171.46,"Utah Get Me 2A"]],
-      [["Getaway Broncos",70.08,121.36,"Black Crush"],["Andy Nederlander",150.40,139.30,"Nosferatu"],["Candy Cadbury",122.94,105.22,"Water Boy"],["Cardiac Kids",144.78,89.52,"my ball zach ertz"],["The Dart Side",90.06,115.62,"Utah Get Me 2A"]],
-      [["Getaway Broncos",94.70,88.60,"Utah Get Me 2A"],["Andy Nederlander",120.52,115.30,"Cardiac Kids"],["Candy Cadbury",164.08,77.82,"The Dart Side"],["Water Boy",111.02,114.64,"Nosferatu"],["my ball zach ertz",150.48,158.32,"Black Crush"]],
-      [["Getaway Broncos",102.68,90.40,"my ball zach ertz"],["Andy Nederlander",185.36,100.78,"Black Crush"],["Candy Cadbury",170.18,127.00,"Utah Get Me 2A"],["Cardiac Kids",80.08,142.48,"Water Boy"],["The Dart Side",88.44,112.36,"Nosferatu"]],
-      [["Getaway Broncos",60.92,46.20,"Andy Nederlander"],["Candy Cadbury",53.24,51.50,"Nosferatu"],["Cardiac Kids",45.16,28.68,"The Dart Side"],["Water Boy",63.38,16.20,"Black Crush"],["my ball zach ertz",45.62,53.38,"Utah Get Me 2A"]]
+    [
+     "Andy Nederlander",
+     145.86,
+     112.6,
+     "my ball zach ertz"
     ],
-    "G": [
-      [["The Sun",128.86,169.72,"King Edward"],["Gordon Grinders",114.46,143.36,"Just Win Baby"],["Chiefs Fantasy Climb",158.26,102.86,"Crushin’ Ballz"],["MCK",103.36,127.52,"Gridiron Girl"],["Ceedeez Nuts",136.16,96.40,"chase's Amazing Team"]],
-      [["The Sun",98.40,107.58,"Crushin’ Ballz"],["Gordon Grinders",127.04,143.66,"chase's Amazing Team"],["Chiefs Fantasy Climb",108.78,128.52,"Just Win Baby"],["MCK",121.72,161.88,"Ceedeez Nuts"],["King Edward",90.06,103.58,"Gridiron Girl"]],
-      [["The Sun",80.24,131.98,"Gridiron Girl"],["Gordon Grinders",120.84,95.26,"MCK"],["Chiefs Fantasy Climb",128.30,156.64,"chase's Amazing Team"],["Ceedeez Nuts",109.04,124.42,"King Edward"],["Crushin’ Ballz",114.28,132.56,"Just Win Baby"]],
-      [["The Sun",153.78,118.38,"Just Win Baby"],["Gordon Grinders",117.46,122.92,"King Edward"],["Chiefs Fantasy Climb",142.04,106.22,"MCK"],["Ceedeez Nuts",119.00,130.22,"Gridiron Girl"],["chase's Amazing Team",121.20,134.52,"Crushin’ Ballz"]],
-      [["The Sun",135.78,110.54,"Ceedeez Nuts"],["Gordon Grinders",105.32,112.06,"Gridiron Girl"],["Chiefs Fantasy Climb",79.34,148.70,"King Edward"],["MCK",119.30,140.50,"Crushin’ Ballz"],["chase's Amazing Team",197.04,141.50,"Just Win Baby"]],
-      [["The Sun",90.54,90.52,"chase's Amazing Team"],["Gordon Grinders",115.80,115.78,"Ceedeez Nuts"],["Chiefs Fantasy Climb",130.06,119.70,"Gridiron Girl"],["MCK",85.80,133.88,"Just Win Baby"],["Crushin’ Ballz",104.24,96.98,"King Edward"]],
-      [["The Sun",101.42,86.30,"Gordon Grinders"],["Chiefs Fantasy Climb",110.72,88.90,"Ceedeez Nuts"],["MCK",74.84,102.42,"chase's Amazing Team"],["Crushin’ Ballz",111.36,128.04,"Gridiron Girl"],["King Edward",137.52,136.12,"Just Win Baby"]],
-      [["The Sun",90.50,120.16,"MCK"],["Gordon Grinders",98.08,91.70,"Chiefs Fantasy Climb"],["Ceedeez Nuts",129.14,177.68,"Crushin’ Ballz"],["chase's Amazing Team",168.90,104.66,"King Edward"],["Gridiron Girl",131.86,135.88,"Just Win Baby"]],
-      [["The Sun",36.50,63.78,"Chiefs Fantasy Climb"],["Gordon Grinders",29.50,63.52,"Crushin’ Ballz"],["MCK",23.60,46.26,"King Edward"],["Ceedeez Nuts",45.02,11.80,"Just Win Baby"],["chase's Amazing Team",61.82,32.80,"Gridiron Girl"]]
+    [
+     "Candy Cadbury",
+     124.56,
+     108.5,
+     "Cardiac Kids"
+    ],
+    [
+     "The Dart Side",
+     106.74,
+     180.76,
+     "Black Crush"
+    ],
+    [
+     "Nosferatu",
+     93.36,
+     155.46,
+     "Utah Get Me 2A"
     ]
-  }
+   ],
+   [
+    [
+     "Getaway Broncos",
+     124.86,
+     64.58,
+     "The Dart Side"
+    ],
+    [
+     "Andy Nederlander",
+     162.82,
+     104.4,
+     "Utah Get Me 2A"
+    ],
+    [
+     "Candy Cadbury",
+     121.9,
+     124.22,
+     "Black Crush"
+    ],
+    [
+     "Cardiac Kids",
+     154.98,
+     117.72,
+     "Nosferatu"
+    ],
+    [
+     "Water Boy",
+     119.94,
+     96.06,
+     "my ball zach ertz"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     108.34,
+     152.58,
+     "Candy Cadbury"
+    ],
+    [
+     "Andy Nederlander",
+     132.86,
+     111.88,
+     "Water Boy"
+    ],
+    [
+     "Cardiac Kids",
+     90.7,
+     156.94,
+     "Utah Get Me 2A"
+    ],
+    [
+     "The Dart Side",
+     124.86,
+     134.44,
+     "my ball zach ertz"
+    ],
+    [
+     "Black Crush",
+     163.54,
+     92.84,
+     "Nosferatu"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     78.1,
+     178.86,
+     "Nosferatu"
+    ],
+    [
+     "Andy Nederlander",
+     134.12,
+     87.04,
+     "The Dart Side"
+    ],
+    [
+     "Candy Cadbury",
+     151.22,
+     115.2,
+     "my ball zach ertz"
+    ],
+    [
+     "Cardiac Kids",
+     128.38,
+     144.62,
+     "Black Crush"
+    ],
+    [
+     "Water Boy",
+     116.48,
+     173.98,
+     "Utah Get Me 2A"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     71.4,
+     160.62,
+     "Cardiac Kids"
+    ],
+    [
+     "Andy Nederlander",
+     116.1,
+     164.4,
+     "Candy Cadbury"
+    ],
+    [
+     "The Dart Side",
+     143.14,
+     139.44,
+     "Water Boy"
+    ],
+    [
+     "my ball zach ertz",
+     100.24,
+     185.76,
+     "Nosferatu"
+    ],
+    [
+     "Black Crush",
+     149.34,
+     171.46,
+     "Utah Get Me 2A"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     70.08,
+     121.36,
+     "Black Crush"
+    ],
+    [
+     "Andy Nederlander",
+     150.4,
+     139.3,
+     "Nosferatu"
+    ],
+    [
+     "Candy Cadbury",
+     122.94,
+     105.22,
+     "Water Boy"
+    ],
+    [
+     "Cardiac Kids",
+     144.78,
+     89.52,
+     "my ball zach ertz"
+    ],
+    [
+     "The Dart Side",
+     90.06,
+     115.62,
+     "Utah Get Me 2A"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     94.7,
+     88.6,
+     "Utah Get Me 2A"
+    ],
+    [
+     "Andy Nederlander",
+     120.52,
+     115.3,
+     "Cardiac Kids"
+    ],
+    [
+     "Candy Cadbury",
+     164.08,
+     77.82,
+     "The Dart Side"
+    ],
+    [
+     "Water Boy",
+     111.02,
+     114.64,
+     "Nosferatu"
+    ],
+    [
+     "my ball zach ertz",
+     150.48,
+     158.32,
+     "Black Crush"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     102.68,
+     90.4,
+     "my ball zach ertz"
+    ],
+    [
+     "Andy Nederlander",
+     185.36,
+     100.78,
+     "Black Crush"
+    ],
+    [
+     "Candy Cadbury",
+     170.18,
+     127,
+     "Utah Get Me 2A"
+    ],
+    [
+     "Cardiac Kids",
+     80.08,
+     142.48,
+     "Water Boy"
+    ],
+    [
+     "The Dart Side",
+     88.44,
+     112.36,
+     "Nosferatu"
+    ]
+   ],
+   [
+    [
+     "Getaway Broncos",
+     103.78,
+     105,
+     "Andy Nederlander"
+    ],
+    [
+     "Candy Cadbury",
+     128.74,
+     152.96,
+     "Nosferatu"
+    ],
+    [
+     "Cardiac Kids",
+     119.42,
+     77.1,
+     "The Dart Side"
+    ],
+    [
+     "Water Boy",
+     141.64,
+     104.08,
+     "Black Crush"
+    ],
+    [
+     "my ball zach ertz",
+     116.6,
+     146.28,
+     "Utah Get Me 2A"
+    ]
+   ]
+  ],
+  "G": [
+   [
+    [
+     "The Sun",
+     128.86,
+     169.72,
+     "King Edward"
+    ],
+    [
+     "Gordon Grinders",
+     114.46,
+     143.36,
+     "Just Win Baby"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     158.26,
+     102.86,
+     "Crushin’ Ballz"
+    ],
+    [
+     "MCK",
+     103.36,
+     127.52,
+     "Gridiron Girl"
+    ],
+    [
+     "Ceedeez Nuts",
+     136.16,
+     96.4,
+     "chase's Amazing Team"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     98.4,
+     107.58,
+     "Crushin’ Ballz"
+    ],
+    [
+     "Gordon Grinders",
+     127.04,
+     143.66,
+     "chase's Amazing Team"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     108.78,
+     128.52,
+     "Just Win Baby"
+    ],
+    [
+     "MCK",
+     121.72,
+     161.88,
+     "Ceedeez Nuts"
+    ],
+    [
+     "King Edward",
+     90.06,
+     103.58,
+     "Gridiron Girl"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     80.24,
+     131.98,
+     "Gridiron Girl"
+    ],
+    [
+     "Gordon Grinders",
+     120.84,
+     95.26,
+     "MCK"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     128.3,
+     156.64,
+     "chase's Amazing Team"
+    ],
+    [
+     "Ceedeez Nuts",
+     109.04,
+     124.42,
+     "King Edward"
+    ],
+    [
+     "Crushin’ Ballz",
+     114.28,
+     132.56,
+     "Just Win Baby"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     153.78,
+     118.38,
+     "Just Win Baby"
+    ],
+    [
+     "Gordon Grinders",
+     117.46,
+     122.92,
+     "King Edward"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     142.04,
+     106.22,
+     "MCK"
+    ],
+    [
+     "Ceedeez Nuts",
+     119,
+     130.22,
+     "Gridiron Girl"
+    ],
+    [
+     "chase's Amazing Team",
+     121.2,
+     134.52,
+     "Crushin’ Ballz"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     135.78,
+     110.54,
+     "Ceedeez Nuts"
+    ],
+    [
+     "Gordon Grinders",
+     105.32,
+     112.06,
+     "Gridiron Girl"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     79.34,
+     148.7,
+     "King Edward"
+    ],
+    [
+     "MCK",
+     119.3,
+     140.5,
+     "Crushin’ Ballz"
+    ],
+    [
+     "chase's Amazing Team",
+     197.04,
+     141.5,
+     "Just Win Baby"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     90.54,
+     90.52,
+     "chase's Amazing Team"
+    ],
+    [
+     "Gordon Grinders",
+     115.8,
+     115.78,
+     "Ceedeez Nuts"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     130.06,
+     119.7,
+     "Gridiron Girl"
+    ],
+    [
+     "MCK",
+     85.8,
+     133.88,
+     "Just Win Baby"
+    ],
+    [
+     "Crushin’ Ballz",
+     104.24,
+     96.98,
+     "King Edward"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     101.42,
+     86.3,
+     "Gordon Grinders"
+    ],
+    [
+     "Chiefs Fantasy Climb",
+     110.72,
+     88.9,
+     "Ceedeez Nuts"
+    ],
+    [
+     "MCK",
+     74.84,
+     102.42,
+     "chase's Amazing Team"
+    ],
+    [
+     "Crushin’ Ballz",
+     111.36,
+     128.04,
+     "Gridiron Girl"
+    ],
+    [
+     "King Edward",
+     137.52,
+     136.12,
+     "Just Win Baby"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     90.5,
+     120.16,
+     "MCK"
+    ],
+    [
+     "Gordon Grinders",
+     98.08,
+     91.7,
+     "Chiefs Fantasy Climb"
+    ],
+    [
+     "Ceedeez Nuts",
+     129.14,
+     177.68,
+     "Crushin’ Ballz"
+    ],
+    [
+     "chase's Amazing Team",
+     168.9,
+     104.66,
+     "King Edward"
+    ],
+    [
+     "Gridiron Girl",
+     131.86,
+     135.88,
+     "Just Win Baby"
+    ]
+   ],
+   [
+    [
+     "The Sun",
+     138.24,
+     112.58,
+     "Chiefs Fantasy Climb"
+    ],
+    [
+     "Gordon Grinders",
+     120.36,
+     116.52,
+     "Crushin’ Ballz"
+    ],
+    [
+     "MCK",
+     43.1,
+     90.62,
+     "King Edward"
+    ],
+    [
+     "Ceedeez Nuts",
+     116.58,
+     127.96,
+     "Just Win Baby"
+    ],
+    [
+     "chase's Amazing Team",
+     123.6,
+     102.28,
+     "Gridiron Girl"
+    ]
+   ]
+  ]
+ }
 }
 </script>
 
